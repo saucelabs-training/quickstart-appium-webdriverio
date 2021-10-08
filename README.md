@@ -17,8 +17,11 @@ The Native demo app that has been used for all these tests can be found [here](a
 - [`my.rn.demo.app.ios.sim.zip`](apps/my.rn.demo.app.ios.sim.zip) which can **ONLY** be used for iOS simulators
 - [`my.rn.demo.app.ios.real.device.ipa`](apps/my.rn.demo.app.ios.real.device.ipa) which can **ONLY** be used for iOS real devices
 
+### Install Node Modules
+Clone this repo onto your local machine. You will need to run `npm install` from the root folder. 
+
 ### Upload apps to Sauce Storage
-...
+Navigate to https://app.saucelabs.com/live/app-testing and upload the correct app file (from above) according to the environment you want to test in. You can find the apps for uploading in this project inside of the `/apps` directory
 
 ## Run Native App tests on Sauce Labs Android emulators in the Sauce Labs Platform
 If you want to run the Native Android App tests on Sauce Labs emulators then you can run the Android tests with
